@@ -6,4 +6,42 @@
   font-weight: 400;
   font-style: normal;
 }
+/* share styles */
+.display-flex{
+  display: flex;
+}
+/* dark-02 */
+.text-gray{
+  color: #424242;
+}
+/* dark-03 */
+.text-light-gray{
+  color: #727272;
+}
+.bg-light{
+  background-color: rgba(255, 144, 14, 0.1);
+}
+/* header styles */
+
+
+/* nav related styles */
+.navbar{
+  justify-content: space-between;
+
+}
+.nav-items{
+  list-style: none;
+  margin-right: 30px;
+}
+.nav-link{
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 18px;
+}
+.navbar, .banner{
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+
 
